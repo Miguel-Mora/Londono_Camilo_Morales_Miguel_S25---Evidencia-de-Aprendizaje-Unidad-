@@ -38,7 +38,7 @@ public final class Cooperativa {
 
     public void listarSociosResumen() {
         socios.forEach(s ->
-                System.out.println(s.getNombre() + " (" + s.getCedula() + ") → " + s.getCuentas().size() + " cuentas"));
+                System.out.println(s.getNombre() + " (" + s.getCedula() + ") -> " + s.getCuentas().size() + " cuentas"));
     }
 
     public Optional<Socio> buscarSocioPorCedula(String cedula) {

@@ -31,9 +31,9 @@ public class Socio {
     @Override
     public String toString() {
         return "Socio {" +
-                "nombre='" + nombre + '\'' +
-                ", cedula='" + cedula + '\'' +
-                ", cuentas=" + cuentas.size() +
+                "nombre = '" + nombre + '\'' +
+                ", cedula = '" + cedula + '\'' +
+                ", cuentas = " + cuentas.size() +
                 '}';
     }
 }

@@ -34,7 +34,7 @@ public class Main {
             r1.ejecutar();
 
             // 6) Listados con lambdas explícitas
-            System.out.println("=== Lista de socios (toString) ===");
+            System.out.println("=== Lista de socios ===");
             coop.listarSocios(); // usa lambda en Cooperativa
 
             System.out.println("\n=== Resumen de socios (nombre, cédula, #cuentas) ===");
